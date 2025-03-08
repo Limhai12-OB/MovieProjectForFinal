@@ -42,11 +42,11 @@ export default function Header() {
           <div>
             <Link
               to="/"
-              className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white"
+              className="text-2xl md:text-3xl font-bold text-white dark:text-white"
             >
               TVC - Welcome to the world of Movies
             </Link>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+            <p className="text-sm text-white dark:text-gray-400 mt-1">
               Explore the latest releases and classic favorites.
             </p>
           </div>

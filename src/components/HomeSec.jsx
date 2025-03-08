@@ -4,7 +4,9 @@ export default function TopRating() {
       <section className="container mx-auto">
         <main>
           <div className="mb-4">
-            <h2 className="font-bold text-2xl uppercase">Top Rating Movies</h2>
+            <h2 className="font-bold text-2xl uppercase text-white">
+              Top Rating Movies
+            </h2>
           </div>
           <div
             className="bg-center bg-cover"
@@ -21,7 +23,7 @@ export default function TopRating() {
                   alt="Venom: The Last Dance movie poster"
                 />
               </div>
-              <div className="ml-5 max-w-md ">
+              <div className="ml-5 max-w-md text-white">
                 <h2 className="font-bold">Release Date</h2>
                 <p>2024-10-22</p>
                 <h2 className="font-bold mt-5">Movie Name</h2>
@@ -50,7 +52,7 @@ export default function TopRating() {
             }}
           >
             <div className="flex flex-col-reverse md:flex-row px-6 py-10 md:px-28 md:justify-end backdrop-blur-sm">
-              <div className="mt-5 md:mt-0 md:mr-5 max-w-md md:text-right">
+              <div className="mt-5 md:mt-0 md:mr-5 max-w-md md:text-right text-white">
                 <h2 className="font-bold">Release Date</h2>
                 <p>2025-09-15</p>
                 <h2 className="font-bold mt-5">Movie Name</h2>

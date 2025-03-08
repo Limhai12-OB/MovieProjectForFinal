@@ -24,9 +24,9 @@ export default function Footer() {
             </div>
           </div>
           <div>
-            <h2 className="font-bold text-2xl">Categories</h2>
+            <h2 className="font-bold text-2xl text-white">Categories</h2>
             <div className="mt-5">
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-2 gap-2 text-white">
                 <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
                 <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
                 <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>

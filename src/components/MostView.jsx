@@ -88,7 +88,7 @@ export default function PopularM() {
     <>
       <section className="flex items-center justify-center">
         <main className="w-full max-w-6xl ">
-          <h2 className="font-bold text-3xl md:ml-0 sm:ml-4 ml-6">
+          <h2 className="font-bold text-3xl md:ml-0 sm:ml-4 ml-6 text-white">
             Now Showing
           </h2>
           <div className="bg-blue-700 h-1 mt-3 md:ml-0 sm:ml-4 ml-6 w-[110px] mb-10"></div>
