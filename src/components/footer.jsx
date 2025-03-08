@@ -6,15 +6,17 @@ export default function Footer() {
       <section className="w-screen backdrop-blur-3xl ">
         <main className="grid lg:grid-cols-3 md:col-span-2 sm:col-span-1 mt-5 container mx-auto p-10  ">
           <div className="w-[280px]">
-            <h2 className="font-bold text-2xl">TVC - Entertainment</h2>
-            <p className="mt-6">
+            <h2 className="font-bold text-2xl text-white">
+              TVC - Entertainment
+            </h2>
+            <p className="mt-6 text-white">
               Your ultimate destination for movies, reviews, and entertainment
               news. Discover the magic of cinema with us!
             </p>
           </div>
           <div>
-            <h2 className="font-bold text-2xl">Explore</h2>
-            <div className="mt-5">
+            <h2 className="font-bold text-2xl text-white">Explore</h2>
+            <div className="mt-5 text-white">
               <p>Movies</p>
               <p>TV Shows</p>
               <p>New Releases</p>
