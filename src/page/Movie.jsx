@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 
 import { Link } from "react-router";
 import { fetchMovies } from "../movie/movieAction";
-import AutoImageSlider from "../components/ImageSlider";
 
 export default function Movie() {
   const dispatch = useDispatch();
@@ -42,9 +41,7 @@ export default function Movie() {
                       <h2 className="font-bold text-lg mb-1 truncate">
                         {movie.original_title}
                       </h2>
-                      <p className="text-sm mb-2 line-clamp-1">
-                        Lorem, ipsum dolor.
-                      </p>
+
                       <div className="flex items-center">
                         <svg
                           className="w-5 h-5 text-yellow-400 mr-1"

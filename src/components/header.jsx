@@ -36,9 +36,9 @@ export default function Header() {
   }, [isAuthenticated]);
 
   return (
-    <div className=" py-6 px-4 md:px-8 sticky top-0 z-50 md:col-span-2">
-      <div className="bg-white/30 backdrop-blur-sm rounded-lg p-4 md:p-6">
-        <div className="flex items-center justify-between">
+    <div className=" py-6 px-4 md:px-8 sticky top-0 z-50 md:col-span-2 ">
+      <div className="bg-white/30 backdrop-blur-sm rounded-lg p-4 md:p-6  ">
+        <div className="flex items-center justify-between ">
           <div>
             <h3 className="text-3xl  font-bold text-gray-800 dark:text-white">
               TVC - Welcome to the world of Movies
