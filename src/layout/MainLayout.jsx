@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 export function MainLayout() {
   return (
     <>
-      <main className="bg-no-repeat bg-cover w-screen bg-[url('https://pub-f354ec240bea480db7320bd0e29d972e.r2.dev/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png')]">
+      <main className="bg-no-repeat bg-cover w-auto bg-[url('https://pub-f354ec240bea480db7320bd0e29d972e.r2.dev/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png')]">
         <div class="grid grid-cols-5 backdrop-blur-lg bg-black/10">
           <div className="col-span-1 ">
             <SideBar />

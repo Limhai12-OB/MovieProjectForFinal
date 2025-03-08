@@ -89,10 +89,12 @@ export default function PopularM() {
     <>
       <section className="flex items-center justify-center">
         <main className="w-full max-w-6xl ">
-          <h2 className="font-bold text-3xl">Now Showing</h2>
-          <div className="bg-blue-700 h-1 mt-3 w-[110px] mb-10"></div>
+          <h2 className="font-bold text-3xl md:ml-0 sm:ml-4 ml-6">
+            Now Showing
+          </h2>
+          <div className="bg-blue-700 h-1 mt-3 md:ml-0 sm:ml-4 ml-6 w-[110px] mb-10"></div>
           <Link>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-5">
+            <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-6 p-5">
               {movies.map((movie) => (
                 <MovieCard key={movie.id} movie={movie} />
               ))}
