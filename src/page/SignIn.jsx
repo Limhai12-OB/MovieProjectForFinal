@@ -109,8 +109,10 @@ export default function SignIn() {
                 </div>
               </div>
 
-              <button type="submit">
-                <h2>Sign In</h2>
+              <button type="submit " className="w-full">
+                <h2 className=" py-2 px-4 w-full border border-amber-50 rounded-md shadow-sm  text-sm font-medium text-white">
+                  Sign In
+                </h2>
               </button>
 
               <div className="mt-6 text-center">

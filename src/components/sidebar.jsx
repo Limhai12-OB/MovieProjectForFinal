@@ -46,10 +46,10 @@ export default function SideBar() {
         >
           <div className="flex items-center p-2 space-x-4"></div>
           <div>
-            <h1 className="text-4xl font-bold text-red-600">
+            <Link to="/" className="text-4xl font-bold text-red-600">
               TVC
               <p className="text-2xl font-normal text-white">Entertainment</p>
-            </h1>
+            </Link>
           </div>
           <div className="divide-y dark:divide-gray-300 flex-grow overflow-y-auto mt-20">
             <ul className="pt-2 pb-4 space-y-1 text-sm">

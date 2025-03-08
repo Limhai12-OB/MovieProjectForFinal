@@ -40,9 +40,12 @@ export default function Header() {
       <div className="bg-white/30 backdrop-blur-sm rounded-lg p-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
           <div>
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white">
+            <Link
+              to="/"
+              className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-white"
+            >
               TVC - Welcome to the world of Movies
-            </h3>
+            </Link>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
               Explore the latest releases and classic favorites.
             </p>

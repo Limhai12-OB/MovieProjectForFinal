@@ -1,6 +1,5 @@
 import { Outlet } from "react-router";
 import SideBar from "../components/sidebar";
-
 import Header from "../components/header";
 import Footer from "../components/footer";
 

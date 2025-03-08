@@ -1,3 +1,4 @@
+import TopRating from "../components/HomeSec";
 import PopularM from "../components/MostView";
 
 export default function HomePage() {
@@ -24,6 +25,7 @@ export default function HomePage() {
       <div className="mt-10">
         <PopularM />
       </div>
+      <TopRating />
     </>
   );
 }
