@@ -28,7 +28,9 @@ export default function HomePage() {
         <PopularM />
       </div>{" "}
       <HomeSlider />
-      <TopRating />
+      <div className="p-10">
+        <TopRating />
+      </div>
     </>
   );
 }
