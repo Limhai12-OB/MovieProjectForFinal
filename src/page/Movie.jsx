@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router";
 import { fetchMovies } from "../movie/movieAction";
+import MovieSlider from "../components/ImageSlider";
 
 export default function Movie() {
   const dispatch = useDispatch();
@@ -13,6 +14,7 @@ export default function Movie() {
 
   return (
     <>
+      <MovieSlider />
       <section className="container mx-auto px-4 py-8">
         <Link className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {data.results &&
