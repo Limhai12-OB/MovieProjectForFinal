@@ -2,6 +2,7 @@ import TopRating from "../components/HomeSec";
 import HomeSlider from "../components/HomeSlider";
 
 import PopularM from "../components/MostView";
+import PlanSection from "../components/PlanSection";
 
 export default function HomePage() {
   return (
@@ -31,6 +32,7 @@ export default function HomePage() {
       <div className="p-10">
         <TopRating />
       </div>
+      <PlanSection />
     </>
   );
 }

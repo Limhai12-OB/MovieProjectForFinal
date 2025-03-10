@@ -83,7 +83,7 @@ export default function HomeSlider() {
   };
   return (
     <>
-      <div className="relative md:w-[1230px] container mx-auto h-auto md:h[32rem] lg:h-[40rem] overflow-hidden rounded-xl shadow-2xl bg-gray-900">
+      <div className="relative 2xl:w-[1230px] lg:w-[800px] md:w-[600px]   container mx-auto h-auto md:h[32rem] lg:h-[40rem] overflow-hidden rounded-xl shadow-2xl ">
         <div
           className="h-ful w-full flex transition-transform duration-1000 ease-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -94,7 +94,7 @@ export default function HomeSlider() {
               className="min-w-full h-full relative flex-shrink-0"
             >
               <div
-                className="absolute inset-0 bg-contain bg-no-repeat h-[700px]"
+                className="absolute inset-0 bg-contain bg-no-repeat  h-[700px]"
                 style={{
                   backgroundImage: `url(${movie.posterUrl})`,
                 }}

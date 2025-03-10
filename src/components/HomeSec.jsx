@@ -194,7 +194,7 @@ export default function TopRating() {
         <div className="mt-8 flex justify-center">
           <Link
             to="/movie"
-            className="px-6 py-3 dark:bg-red-600 bg-red-600 text-black rounded-md hover:bg-red-700 transition-colors md:hidden"
+            className="px-6 py-3 dark:bg-red-600 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors md:hidden"
           >
             View All Movies
           </Link>

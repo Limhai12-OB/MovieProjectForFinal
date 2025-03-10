@@ -114,7 +114,7 @@ function MovieCard({ movie }) {
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
     >
-      <div className="relative ">
+      <div className="relative  duration-400 hover:scale-105">
         <img
           src={movie.image}
           alt={`${movie.title} poster`}
