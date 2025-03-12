@@ -23,11 +23,11 @@ export default function Movie() {
                 key={movie.id}
                 className="relative overflow-hidden rounded-lg shadow-lg group"
               >
-                <Link href={`/movie/${movie.id}`}>
+                <Link to={`/movie/${movie.id}`}>
                   <div className="relative">
                     <img
-                      className="w-full h-64 object-cover"
-                      src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`}
+                      className="w-full h-full object-cover"
+                      src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                       alt={`${movie.original_title} poster`}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-95"></div>

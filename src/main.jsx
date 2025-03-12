@@ -10,6 +10,7 @@ import Character from "./page/character.jsx";
 import LoginPage from "./page/SignIn.jsx";
 import { Provider } from "react-redux";
 import { store } from "./store.js";
+import MovieDetail from "./page/MovieDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/movie/:id",
+        element: <MovieDetail />,
       },
       {
         path: "/movie",
