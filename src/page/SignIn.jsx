@@ -42,7 +42,7 @@ export default function SignIn() {
         <section className="flex flex-col items-center  justify-center h-screen px-4">
           <div className="absolute inset-0 bg-black/70 "></div>
 
-          <main className="bg-black/30 backdrop-blur-sm p-8 rounded-lg shadow-lg w-full max-w-md z-10">
+          <main className="bg-white/10 border  backdrop-blur-sm p-8 rounded-lg shadow-lg w-full max-w-md z-10">
             <div className="mb-6">
               <h1 className="text-center text-4xl font-bold text-red-700">
                 Sign In

@@ -30,13 +30,15 @@ export default function Footer() {
             <div className="mt-5">
               <div className="grid grid-cols-2 gap-2 text-white">
                 <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
-                <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
-                <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
-                <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
-                <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
-                <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
-                <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
-                <p className="bg-gray-600 px-5 rounded-xl py-1">Action</p>
+                <p className="bg-gray-600 px-5 rounded-xl py-1">Genres</p>
+                <p className="bg-gray-600 px-5 rounded-xl py-1">
+                  Popular Movies/Trending
+                </p>
+                <p className="bg-gray-600 px-5 rounded-xl py-1">Top Rated</p>
+                <p className="bg-gray-600 px-5 rounded-xl py-1">Trailers</p>
+                <p className="bg-gray-600 px-5 rounded-xl py-1">Reviews</p>
+                <p className="bg-gray-600 px-5 rounded-xl py-1">Movie News</p>
+                <p className="bg-gray-600 px-5 rounded-xl py-1">Site Map</p>
               </div>
             </div>
           </div>

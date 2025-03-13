@@ -91,7 +91,7 @@ export default function HomeSlider() {
           {movies.map((movie, index) => (
             <div
               key={movie.id}
-              className="min-w-full h-full relative flex-shrink-0"
+              className="min-w-full h-full relative flex-shrink-0 duration-300 hover:scale-105"
             >
               <div
                 className="absolute inset-0 bg-contain bg-no-repeat  h-[700px]"

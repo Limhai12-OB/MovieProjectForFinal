@@ -6,11 +6,11 @@ import Error from "./page/Error.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import HomePage from "./page/Home.jsx";
 import Movie from "./page/Movie.jsx";
-import Character from "./page/character.jsx";
 import LoginPage from "./page/SignIn.jsx";
 import { Provider } from "react-redux";
 import { store } from "./store.js";
 import MovieDetail from "./page/MovieDetails.jsx";
+import ContactUs from "./page/contactus.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
         element: <Movie />,
       },
       {
-        path: "character",
-        element: <Character />,
+        path: "/contactus",
+        element: <ContactUs />,
       },
     ],
     errorElement: <Error />,
