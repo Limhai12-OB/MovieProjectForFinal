@@ -23,7 +23,7 @@ export default function MovieDetail() {
           <div className="absolute inset-0 bg-black/50"></div>
           <div className="absolute bottom-0 left-0 right-0 h-16 md:h-24 lg:h-32 bg-gradient-to-t from-gray-900 to-transparent"></div>
         </div>
-        <div className="bg-gray-900 min-h-[1000px] lg:h-[1000px] relative">
+        <div className="bg-gray-900 md:h-[1400px] sm:h-[1900px] h-[2100px] lg:h-[900px] relative">
           <div className="absolute top-0 transform -translate-y-1/4 md:-translate-y-1/3 lg:-translate-y-1/2 w-full px-4 md:px-8 lg:px-16">
             <div className="grid lg:grid-cols-1 md:grid-cols-1 grid-cols-1 2xl:grid-cols-4">
               <div className="md:col-span-1 flex justify-center md:justify-start">
@@ -147,7 +147,45 @@ export default function MovieDetail() {
                   </div>
                 </div>
               </div>
-              {/*  */}
+            </div>
+            <div className="text-center mt-10">
+              <h2 className="font-bold text-2xl uppercase">
+                You also might like
+              </h2>
+            </div>
+            <div className="flex justify-center items-center mt-10 ">
+              <div className="grid 2xl:grid-cols-5 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-2 gap-5  ">
+                <div className="w-[200px] bg-blue-500 shadow-lg shadow-blue-500/50">
+                  <img
+                    src="https://image.tmdb.org/t/p/w500/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg"
+                    alt="logo"
+                  />
+                </div>
+                <div className="w-[200px] bg-blue-500 shadow-lg shadow-blue-500/50">
+                  <img
+                    src="https://image.tmdb.org/t/p/w500/p5i1yyQW6OpLfB59w7ZkX5lvBqD.jpg"
+                    alt="logo"
+                  />
+                </div>
+                <div className="w-[200px] bg-blue-500 shadow-lg shadow-blue-500/50">
+                  <img
+                    src="https://image.tmdb.org/t/p/w500/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg"
+                    alt="logo"
+                  />
+                </div>
+                <div className="w-[200px] bg-blue-500 shadow-lg shadow-blue-500/50">
+                  <img
+                    src="https://image.tmdb.org/t/p/w500/oCoTgC3UyWGfyQ9thE10ulWR7bn.jpg"
+                    alt="logo"
+                  />
+                </div>
+                <div className="w-[200px] bg-white shadow-lg  shadow-blue-500/50">
+                  <img
+                    src="https://image.tmdb.org/t/p/w500/1GvBhRxY6MELDfxFrete6BNhBB5.jpg"
+                    alt="logo"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>

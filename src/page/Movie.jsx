@@ -21,7 +21,7 @@ export default function Movie() {
             data.results.map((movie) => (
               <div
                 key={movie.id}
-                className="relative overflow-hidden rounded-lg shadow-lg group"
+                className="relative overflow-hidden rounded-lg shadow-lg group duration-300 hover:scale-105"
               >
                 <Link to={`/movie/${movie.id}`}>
                   <div className="relative">
