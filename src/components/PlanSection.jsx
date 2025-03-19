@@ -1,24 +1,25 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckDouble } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router";
 
 export default function PlanSection() {
   return (
     <section className="px-4 py-16 mx-auto max-w-7xl">
-      <div className="max-w-3xl mx-auto mb-25">
+      <div className="max-w-3xl mx-auto mb-30">
         <h2 className="font-bold text-center text-3xl md:text-4xl">
           Choose your plan
         </h2>
         <p className="text-gray-400 text-center mt-3">
-          Get your Premium account to explore with more differences
+          Get your Premium account to explore with more features
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-3 md:grid-cols-1 grid-cols-1 gap-5">
-        <div className="bg-gray-900 2xl:h-[480px] lg:h-[550px] md:h-[500px] h-[480px] text-center rounded-4xl border-5 border-gray-400  duration-400 hover:scale-105">
+      <div className="grid lg:grid-cols-3 md:grid-cols-1 grid-cols-1 gap-5 ">
+        {/* Silver Plan */}
+        <div className="bg-gray-900 p-5 text-center rounded-4xl border border-gray-400 transition duration-300 hover:scale-105">
           <h2 className="font-bold text-3xl mt-8">Silver Plan</h2>
           <p className="text-gray-300 text-2xl mt-3">
-            {" "}
-            $4.99 <span className="text-sm">/month </span>
+            $4.99 <span className="text-sm">/month</span>
           </p>
           <div className="mt-5 text-start ml-10">
             <ul className="space-y-5">
@@ -59,19 +60,24 @@ export default function PlanSection() {
               </li>
             </ul>
           </div>
-          <button className="bg-amber-500 text-black font-bold px-10 cursor-pointer py-2 rounded-2xl mt-13">
-            {" "}
-            Subscribe Now
-          </button>
+          <div className="lg:mt-30 mt-10">
+            <Link
+              to="/payment"
+              className="bg-amber-500 text-black font-bold px-10 py-2 rounded-lg inline-block"
+            >
+              Subscribe Now
+            </Link>
+          </div>
         </div>
-        <div className="bg-gray-900 2xl:h-[533px] lg:h-[600px] md:h-[570px] sm:h-[500px] h-[520px]  text-center lg:-mt-12 md:-mt-0 -mt-0 border-5 border-amber-500  relative rounded-4xl  duration-400 hover:scale-105">
-          <div className="absolute ml-35 -mt-4  px-4 py-1 bg-amber-500 text-black rounded-full text-sm font-bold">
+
+        {/* Gold Plan */}
+        <div className="bg-gray-900 p-5 text-center lg:-mt-12 border border-amber-500 relative rounded-4xl transition duration-300 hover:scale-105">
+          <div className="absolute left-1/2 -translate-x-1/2 -top-4 px-4 py-1 bg-amber-500 text-black rounded-full text-sm font-bold whitespace-nowrap">
             Most Popular
           </div>
           <h2 className="font-bold text-3xl mt-8 text-amber-400">Gold Plan</h2>
           <p className="text-gray-300 text-2xl mt-3">
-            {" "}
-            $14.99 <span className="text-sm">/month </span>
+            $14.99 <span className="text-sm">/month</span>
           </p>
           <div className="mt-10 text-start ml-10">
             <ul className="space-y-5">
@@ -87,14 +93,14 @@ export default function PlanSection() {
                   className="text-green-500"
                   icon={faCheckDouble}
                 />{" "}
-                Watch on 2 devices at a time time
+                Watch on 2 devices at a time
               </li>
               <li>
                 <FontAwesomeIcon
                   className="text-green-500"
                   icon={faCheckDouble}
                 />{" "}
-                Full movie library access library
+                Full movie library access
               </li>
               <li>
                 <FontAwesomeIcon
@@ -119,41 +125,46 @@ export default function PlanSection() {
               </li>
             </ul>
           </div>
-          <button className="bg-amber-500 text-black font-bold px-10 cursor-pointer py-2 rounded-2xl mt-10  ">
-            {" "}
-            Subscribe Now
-          </button>
+          <div className="lg:mt-25 mt-10">
+            <Link
+              to="/payment"
+              className="bg-amber-500 text-black font-bold px-10 py-2 rounded-lg inline-block"
+            >
+              Subscribe Now
+            </Link>
+          </div>
         </div>
-        <div className="bg-gray-900 2xl:h-[480px] lg:h-[550px] md:h-[500px] h-[520px] text-center  rounded-4xl border-5 border-blue-500  duration-400 hover:scale-105">
-          <h2 className="font-bold text-3xl mt-2 text-blue-700">
+
+        {/* Platinum Plan */}
+        <div className="bg-gray-900 p-5 text-center rounded-4xl border border-blue-500 transition duration-300 hover:scale-105">
+          <h2 className="font-bold text-3xl mt-8 text-blue-500">
             Platinum Plan
           </h2>
           <p className="text-gray-300 text-2xl mt-3">
-            {" "}
-            $24.99 <span className="text-sm">/month </span>
+            $24.99 <span className="text-sm">/month</span>
           </p>
-          <div className="mt-2 text-start ml-10">
-            <ul className="space-y-4">
+          <div className="mt-5 text-start ml-10">
+            <ul className="space-y-5">
               <li>
                 <FontAwesomeIcon
                   className="text-green-500"
                   icon={faCheckDouble}
                 />{" "}
-                4K Ultra HD + HDR streaming (1080p)
+                4K Ultra HD + HDR streaming
               </li>
               <li>
                 <FontAwesomeIcon
                   className="text-green-500"
                   icon={faCheckDouble}
                 />{" "}
-                Watch on 4 devices at a time time time
+                Watch on 4 devices at a time
               </li>
               <li>
                 <FontAwesomeIcon
                   className="text-green-500"
                   icon={faCheckDouble}
                 />{" "}
-                Full movie & exclusive content access access library
+                Full movie & exclusive content access
               </li>
               <li>
                 <FontAwesomeIcon
@@ -174,7 +185,7 @@ export default function PlanSection() {
                   className="text-green-500"
                   icon={faCheckDouble}
                 />{" "}
-                Unlimited downloads offline viewing
+                Unlimited downloads for offline viewing
               </li>
               <li>
                 <FontAwesomeIcon
@@ -185,10 +196,14 @@ export default function PlanSection() {
               </li>
             </ul>
           </div>
-          <button className="bg-amber-500 text-black font-bold px-10 cursor-pointer py-2 rounded-2xl mt-3">
-            {" "}
-            Subscribe Now
-          </button>
+          <div className="mt-10">
+            <Link
+              to="/payment"
+              className="bg-amber-500 text-black font-bold px-10 py-2 rounded-lg inline-block"
+            >
+              Subscribe Now
+            </Link>
+          </div>
         </div>
       </div>
     </section>

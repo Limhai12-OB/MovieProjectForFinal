@@ -11,6 +11,7 @@ import { Provider } from "react-redux";
 import { store } from "./store.js";
 import MovieDetail from "./page/MovieDetails.jsx";
 import ContactUs from "./page/contactus.jsx";
+import PaymentSec from "./page/Payment.jsx";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/contactus",
         element: <ContactUs />,
+      },
+      {
+        path: "/payment",
+        element: <PaymentSec />,
       },
     ],
     errorElement: <Error />,

@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import { fetchMoviesDetail } from "../movie/movieAction";
+import Movie from "./Movie";
 
 export default function MovieDetail() {
   const params = useParams();
@@ -149,43 +150,12 @@ export default function MovieDetail() {
               </div>
             </div>
             <div className="text-center mt-10">
-              <h2 className="font-bold text-2xl uppercase">
-                You also might like
-              </h2>
-            </div>
-            <div className="flex justify-center items-center mt-10 ">
-              <div className="grid 2xl:grid-cols-5 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-2 gap-5  ">
-                <div className="w-[200px] bg-blue-500 shadow-lg shadow-blue-500/50">
-                  <img
-                    src="https://image.tmdb.org/t/p/w500/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg"
-                    alt="logo"
-                  />
-                </div>
-                <div className="w-[200px] bg-blue-500 shadow-lg shadow-blue-500/50">
-                  <img
-                    src="https://image.tmdb.org/t/p/w500/p5i1yyQW6OpLfB59w7ZkX5lvBqD.jpg"
-                    alt="logo"
-                  />
-                </div>
-                <div className="w-[200px] bg-blue-500 shadow-lg shadow-blue-500/50">
-                  <img
-                    src="https://image.tmdb.org/t/p/w500/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg"
-                    alt="logo"
-                  />
-                </div>
-                <div className="w-[200px] bg-blue-500 shadow-lg shadow-blue-500/50">
-                  <img
-                    src="https://image.tmdb.org/t/p/w500/oCoTgC3UyWGfyQ9thE10ulWR7bn.jpg"
-                    alt="logo"
-                  />
-                </div>
-                <div className="w-[200px] bg-white shadow-lg  shadow-blue-500/50">
-                  <img
-                    src="https://image.tmdb.org/t/p/w500/1GvBhRxY6MELDfxFrete6BNhBB5.jpg"
-                    alt="logo"
-                  />
-                </div>
-              </div>
+              <Link
+                to="/movie"
+                className="text-xl font-bold bg-blue-700 px-7 py-2 rounded-lg hover:bg-blue-800 duration-300"
+              >
+                Back{" "}
+              </Link>
             </div>
           </div>
         </div>

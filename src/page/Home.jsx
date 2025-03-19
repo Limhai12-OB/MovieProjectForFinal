@@ -1,8 +1,10 @@
+import FeedBack from "../components/Feedback";
 import TopRating from "../components/HomeSec";
 import HomeSlider from "../components/HomeSlider";
 
 import PopularM from "../components/MostView";
 import PlanSection from "../components/PlanSection";
+import ReasonPlan from "../components/Reason";
 
 export default function HomePage() {
   return (
@@ -33,6 +35,8 @@ export default function HomePage() {
         <TopRating />
       </div>
       <PlanSection />
+      <ReasonPlan />
+      <FeedBack />
     </>
   );
 }

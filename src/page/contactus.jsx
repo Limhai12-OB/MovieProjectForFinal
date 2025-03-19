@@ -49,14 +49,12 @@ export default function ContactUs() {
                       Select a topic
                     </option>
                     <option value="support" className="bg-blue-900">
-                      Technical Support
+                      Web Problem
                     </option>
                     <option value="sales" className="bg-blue-900">
-                      Sales Inquiry
+                      Payment Problem
                     </option>
-                    <option value="feedback" className="bg-blue-900">
-                      Product Feedback
-                    </option>
+
                     <option value="other" className="bg-blue-900">
                       Other
                     </option>
@@ -75,7 +73,7 @@ export default function ContactUs() {
               </div>
             </div>
             <div className="text-center mt-8">
-              <button className="bg-gradient-to-r from-blue-700 to-purple-700 px-6 py-2 font-bold rounded-xl ">
+              <button className="bg-gradient-to-r cursor-pointer from-blue-700 to-purple-700 px-6 py-2 font-bold rounded-xl ">
                 Send Message
               </button>
               <p className="text-gray-300 mt-2">

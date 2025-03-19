@@ -3,7 +3,7 @@ import { Link } from "react-router";
 export default function Footer() {
   return (
     <>
-      <section className="w-screen backdrop-blur-3xl ">
+      <section className="w-screen bg-white/5 border border-white/10 backdrop-blur-3xl mt-20">
         <main className="grid lg:grid-cols-3 md:col-span-2 sm:col-span-1 mt-5 container mx-auto p-10  ">
           <div className="w-[280px]">
             <h2 className="font-bold text-2xl text-white">
