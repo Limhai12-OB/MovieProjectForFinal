@@ -19,7 +19,7 @@ export function Logout() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              className="w-5 h-5 fill-current dark:text-gray-600"
+              className="w-5 h-5 fill-current text-white dark:text-gray-600"
             >
               <path d="M440,424V88H352V13.005L88,58.522V424H16v32h86.9L352,490.358V120h56V456h88V424ZM320,453.642,120,426.056V85.478L320,51Z"></path>
               <rect width="32" height="64" x="256" y="232"></rect>
@@ -43,7 +43,7 @@ export default function SideBar() {
   return (
     <>
       <section className="flex sticky top-0 z-50">
-        <div className="lg:hidden p-3">
+        <div className="lg:hidden p-3 ">
           <button onClick={toggleMobileMenu}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -73,12 +73,12 @@ export default function SideBar() {
         >
           <div className="flex items-center p-2 space-x-4"></div>
           <div>
-            <Link to="/" className="text-4xl font-bold text-red-600">
+            <Link to="/" className="text-[4rem] font-bold text-red-600 ">
               TVC
-              <p className="text-2xl font-normal text-white">Entertainment</p>
+              <p className="text-2xl  text-gray-300">Entertainment</p>
             </Link>
           </div>
-          <div className="divide-y dark:divide-gray-300 flex-grow overflow-y-auto mt-20">
+          <div className="divide-y divide-white dark:divide-gray-300 flex-grow overflow-y-auto mt-20">
             <ul className="pt-2 pb-4 space-y-1 text-sm">
               {/* ... Your list items (Dashboard, Search, etc.) ... */}
               <li className="dark:bg-gray-100 dark:text-gray-900">
@@ -89,7 +89,7 @@ export default function SideBar() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
-                    className="w-5 h-5 fill-current dark:text-gray-600"
+                    className="w-5 h-5 fill-current text-white dark:text-gray-600"
                   >
                     <path d="M68.983,382.642l171.35,98.928a32.082,32.082,0,0,0,32,0l171.352-98.929a32.093,32.093,0,0,0,16-27.713V157.071a32.092,32.092,0,0,0-16-27.713L272.334,30.429a32.086,32.086,0,0,0-32,0L68.983,129.358a32.09,32.09,0,0,0-16,27.713V354.929A32.09,32.09,0,0,0,68.983,382.642ZM272.333,67.38l155.351,89.691V334.449L272.333,246.642ZM256.282,274.327l157.155,88.828-157.1,90.7L99.179,363.125ZM84.983,157.071,240.333,67.38v179.2L84.983,334.39Z"></path>
                   </svg>
@@ -104,7 +104,7 @@ export default function SideBar() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
-                    className="w-5 h-5 fill-current dark:text-gray-600"
+                    className="w-5 h-5 fill-current text-white dark:text-gray-600"
                   >
                     <path d="M68.983,382.642l171.35,98.928a32.082,32.082,0,0,0,32,0l171.352-98.929a32.093,32.093,0,0,0,16-27.713V157.071a32.092,32.092,0,0,0-16-27.713L272.334,30.429a32.086,32.086,0,0,0-32,0L68.983,129.358a32.09,32.09,0,0,0-16,27.713V354.929A32.09,32.09,0,0,0,68.983,382.642ZM272.333,67.38l155.351,89.691V334.449L272.333,246.642ZM256.282,274.327l157.155,88.828-157.1,90.7L99.179,363.125ZM84.983,157.071,240.333,67.38v179.2L84.983,334.39Z"></path>
                   </svg>
@@ -119,7 +119,7 @@ export default function SideBar() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
-                    className="w-5 h-5 fill-current dark:text-gray-600"
+                    className="w-5 h-5 fill-current text-white   dark:text-gray-600"
                   >
                     <path d="M68.983,382.642l171.35,98.928a32.082,32.082,0,0,0,32,0l171.352-98.929a32.093,32.093,0,0,0,16-27.713V157.071a32.092,32.092,0,0,0-16-27.713L272.334,30.429a32.086,32.086,0,0,0-32,0L68.983,129.358a32.09,32.09,0,0,0-16,27.713V354.929A32.09,32.09,0,0,0,68.983,382.642ZM272.333,67.38l155.351,89.691V334.449L272.333,246.642ZM256.282,274.327l157.155,88.828-157.1,90.7L99.179,363.125ZM84.983,157.071,240.333,67.38v179.2L84.983,334.39Z"></path>
                   </svg>
@@ -130,7 +130,7 @@ export default function SideBar() {
             {isAuthenticated && isAuthenticated ? <Logout /> : <p></p>}
           </div>
         </div>
-        <div className="bg-black dark:bg-gray-200 h-screen w-[0.5px] m-5 lg:block hidden"></div>{" "}
+        <div className="bg-white dark:bg-gray-200 h-screen w-[0.5px] m-5 lg:block hidden"></div>{" "}
       </section>
     </>
   );

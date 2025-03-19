@@ -4,7 +4,7 @@ export default function ReasonPlan() {
   return (
     <>
       <section className="container mx-auto px-4">
-        <main>
+        <main className="text-white">
           <div className="py-6">
             <h1 className="font-bold text-2xl md:text-3xl uppercase">
               Why join with Us

@@ -12,6 +12,7 @@ import { store } from "./store.js";
 import MovieDetail from "./page/MovieDetails.jsx";
 import ContactUs from "./page/contactus.jsx";
 import PaymentSec from "./page/Payment.jsx";
+import SettingPage from "./page/Setting.jsx";
 
 const router = createBrowserRouter([
   {

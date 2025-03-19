@@ -102,7 +102,7 @@ export default function SignIn() {
                 <div>
                   <button
                     type="button"
-                    className="text-red-500 hover:text-red-400 text-sm"
+                    className="text-red-500 hover:text-red-800 text-sm "
                   >
                     Forgot password?
                   </button>

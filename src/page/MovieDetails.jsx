@@ -116,7 +116,9 @@ export default function MovieDetail() {
                 <div className="grid grid-cols-4 gap-5">
                   <div className="bg-gray-700/50 p-3 mt-3 col-span-2 rounded-xl">
                     <div className="mt-2">
-                      <h2 className="text-xl font-bold">Movie Details</h2>
+                      <h2 className="text-xl text-white font-bold">
+                        Movie Details
+                      </h2>
                     </div>
                     <div className="mt-6 text-gray-400">
                       <p>
@@ -138,7 +140,7 @@ export default function MovieDetail() {
                       </p>
                     </div>
                   </div>
-                  <div className="bg-gray-700/50 p-3 mt-3 col-span-2 rounded-xl">
+                  <div className="bg-gray-700/50 text-white p-3 mt-3 col-span-2 rounded-xl">
                     <div className="mt-2">
                       <h2 className="text-xl font-bold">Coming Soon</h2>
                     </div>
@@ -152,7 +154,7 @@ export default function MovieDetail() {
             <div className="text-center mt-10">
               <Link
                 to="/movie"
-                className="text-xl font-bold bg-blue-700 px-7 py-2 rounded-lg hover:bg-blue-800 duration-300"
+                className="text-xl text-white font-bold bg-blue-700 px-7 py-2 rounded-lg hover:bg-blue-800 duration-300"
               >
                 Back{" "}
               </Link>

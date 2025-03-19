@@ -7,9 +7,11 @@ export default function ContactUs() {
             <h1 className=" text-4xl bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent font-bold">
               Get in Touch
             </h1>
-            <p>Have feedback or need some help? We'd love to hear from you</p>
+            <p className="text-white">
+              Have feedback or need some help? We'd love to hear from you
+            </p>
           </div>
-          <div className="bg-white/10 p-10 border border-white/30 rounded-2xl shadow-2xl mt-10 backdrop-blur-xl">
+          <div className="bg-white/10 p-10 border text-white border-white/30 rounded-2xl shadow-2xl mt-10 backdrop-blur-xl">
             <div className="flex flex-col sm:grid sm:grid-cols-2 gap-6">
               <div className="GP">
                 <label htmlFor="">E-MAIL</label>
@@ -17,7 +19,7 @@ export default function ContactUs() {
                   <input
                     type="email"
                     placeholder="your@gmail.com"
-                    className="w-full px-25 py-3 bg-blue-900/40 p-3 rounded-lg border border-blue-700"
+                    className="w-full px-25 py-3 bg-blue-900/40 p-3 text-white rounded-lg border border-blue-700"
                   />
                 </div>
               </div>
