@@ -43,7 +43,7 @@ export default function SideBar() {
   return (
     <>
       <section className="flex sticky top-0 z-50">
-        <div className="lg:hidden p-3 ">
+        <div className="lg:hidden p-3 text-white">
           <button onClick={toggleMobileMenu}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -67,7 +67,7 @@ export default function SideBar() {
         </div>
         {/* Sidebar (Shown on larger screens, conditionally shown on smaller screens) */}
         <div
-          className={`p-3 space-y-2 w-60 flex flex-col h-screen lg:flex ${
+          className={`p-3 space-y-2 w-60 flex flex-col h-auto text-white  lg:flex ${
             isMobileMenuOpen ? "block" : "hidden" // Show/hide on mobile
           } lg:block`} // Added background color
         >
